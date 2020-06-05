@@ -1,0 +1,10 @@
+{
+  "sql": "SELECT * FROM '$aws/things/+/shadow/update/accepted'",
+  "ruleDisabled": false,
+  "awsIotSqlVersion": "2016-03-23",
+  "actions": [{
+      "lambda": {
+          "functionArn": "arn:aws:lambda:eu-central-1:928549030570:function:iotcore_to_mongodb"
+      }
+  }]
+}
