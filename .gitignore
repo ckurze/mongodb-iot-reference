@@ -1,0 +1,6 @@
+mongoDB_iot_citibike.egg-info/
+.DS_Store
+build/
+dist/
+.idea/
+__pycache__/
