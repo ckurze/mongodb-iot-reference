@@ -89,7 +89,7 @@ AWS CLI Respone:
     "RuleArn": "arn:aws:events:eu-central-1:928549030570:rule/refresh_deviceSimulation"
 }
 ```
-Grant permission to the rule to allow it to trigger the device_simulation function - replace the "RuleArn" with the one from the CLI output of the previous part.
+Grant permission to the rule to allow it to trigger the device_simulation function - replace the `source-arn` with the one from the CLI output of the previous part.
 ```
 aws lambda add-permission --function-name device_simulation \
 --statement-id 123 \
