@@ -1,0 +1,5 @@
+pymongo
+dnspython
+requests
+flask
+pyyaml

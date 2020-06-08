@@ -1,0 +1,8 @@
+flask
+google-api-python-client
+google-cloud-iot
+paho-mqtt
+PyJWT
+cryptography
+pyyaml
+google-cloud-error-reporting
