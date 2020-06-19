@@ -1,6 +1,6 @@
 # MongoDB IoT Reference Implementations
 
-This repository provides you with the reference implementations that have initially been presented during MongoDB.live on 9-10 June 2020. The slides (TODO:LINK) and a recording (TODO:LINK) are available as soon as the event took place.
+This repository provides you with the reference implementations that have initially been presented during MongoDB.live on 9-10 June 2020. The [slides](https://www.slideshare.net/ChristianKurze01/mongodblive-2020-scalable-iot-projects-with-mongodb-gaining-value-from-iot-digital-twins) and a [recording](https://www.youtube.com/watch?v=8DmKum_Uhcg) are available.
 
 All implementations follow the same pattern (see diagram below). Sensors and actuators are the heart of any IoT application. Usually an edge gateway is used to gather the data from the actual devices and send it to the backend - here we use the citibike data as an example. Edge computing also makes it possible to process data locally and avoid the additional latencies in transferring data to a central data center or the cloud. A streaming and routing layer is responsible for secure and guaranteed bi-directional data transfer across potentially unstable networks to the backend. From the backend, data is streamed into a hot data storage layer for real-time data processing. To support batch analysis and machine learning across a large amount of data, a cold data tier can be used. The data can be used for visualization in dashboards and end-user applications as well as for advanced analytics and machine learning.
 
@@ -20,7 +20,7 @@ This repository aims to provide you with a starting point on how to integrate an
 
 ## Credits
 Credits to the collaborators who helped to build these implementations:
-* [Christian Kurze](https://github.com/ckurze) - MonogDB Atlas, HiveMQ, Kakfa & Framework
+* [Christian Kurze](https://github.com/ckurze) - MonogDB Atlas, HiveMQ, Kafka & Framework
 * [Hauke Melius](https://github.com/hmelius2204) - AWS
 * [Marco Sabotinski](https://github.com/marcosabotinski) - GCP, Azure
 * [Julian Storz](https://github.com/JSdotPY) - MongoDB Atlas & Framework
