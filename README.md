@@ -20,7 +20,7 @@ This repository aims to provide you with a starting point on how to integrate an
 
 ## Credits
 Credits to the collaborators who helped to build these implementations:
-* [Christian Kurze](https://github.com/ckurze) - MonogDB Atlas, HiveMQ, Kafka & Framework
+* [Christian Kurze](https://github.com/ckurze) - MongoDB Atlas, HiveMQ, Kafka & Framework
 * [Hauke Melius](https://github.com/hmelius2204) - AWS
 * [Marco Sabotinski](https://github.com/marcosabotinski) - GCP, Azure
 * [Julian Storz](https://github.com/JSdotPY) - MongoDB Atlas & Framework
